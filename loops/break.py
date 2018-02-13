@@ -1,5 +1,7 @@
 '''
 Break statement
+
+Exit out of a loop when an external condition is triggered
 '''
 
 number = 0 
