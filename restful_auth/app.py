@@ -1,6 +1,4 @@
 from flask import Flask, jsonify, abort, make_response, request
-from models import db
-from flask_migrate import Migrate
 from helpers.url import make_public_task
 from auth import auth
 
