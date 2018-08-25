@@ -1,4 +1,4 @@
-# Flask Restful Sample App
+# Flask Restful Sample App - Basic Auth
 
 This is based on Miguel Grinberg's tutorial on **Designing a RESTful API with Python and Flask**.
 
