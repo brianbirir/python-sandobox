@@ -2,3 +2,4 @@ sandbox_env/
 .vscode
 env
 __pycache__
+venv
