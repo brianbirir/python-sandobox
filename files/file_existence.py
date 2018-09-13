@@ -1,7 +1,8 @@
-import os
-from pathlib import Path 
+'''
+Three methods to test the existence of a file
+'''
 
-# Brute force with a try-except block
+# Force with a try-except block
 try: 
     fh = open('/path/to/file', 'r') 
 except FileNotFoundError: 
