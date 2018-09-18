@@ -40,9 +40,6 @@ def new_user():
     return (jsonify({ 'username': user.username }), 201,
             {'Location': url_for('get_user', id=user.id, _external=True)})
 
-    # return '''The username value is: {}
-    # The password value is: {}'''.format(username, password)
-
 
 # get a user
 @app.route('/api/users/<int:id>')
