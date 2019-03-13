@@ -21,4 +21,3 @@ print_values(
             name_5="Remy",
             name_6="Val"
         )
-
