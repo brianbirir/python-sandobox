@@ -96,5 +96,6 @@ def not_found(error):
 def not_found(error):
     return make_response(jsonify({'error':'Method is not allowed'}),400)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
