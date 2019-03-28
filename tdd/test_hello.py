@@ -1,5 +1,5 @@
 import unittest
-from TDD.hello import *
+from tdd.hello import *
 
 
 class HelloTest(unittest.TestCase):
