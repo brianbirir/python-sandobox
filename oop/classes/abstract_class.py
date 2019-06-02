@@ -19,9 +19,9 @@ class GetterSetter:
 
 class MyClass(GetterSetter):
 
-    def set_val(self, input):
+    def set_val(self, inputValue):
 
-        self.val = input
+        self.val = inputValue
 
     def get_val(self):
 
