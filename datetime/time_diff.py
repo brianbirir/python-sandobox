@@ -1,3 +1,6 @@
+"""Get time difference between two datetime data points
+"""
+
 from datetime import datetime
 from dateutil.parser import parse
 
