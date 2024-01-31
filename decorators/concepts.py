@@ -19,6 +19,7 @@ def plus_one(number: int) -> int:
 
 print(plus_one(4)) # output should be 5
 
+
 # Passing Functions as Arguments to other Functions
 
 def plus_one(number: int) -> int:
@@ -39,7 +40,7 @@ def hello_function():
     return say_hi
 
 hello = hello_function()
-print(hello())
+print(hello()) # output should be "Hi"
 
 
 # Nested Functions have access to the enclosing Function's Variable Scope
@@ -51,4 +52,4 @@ def print_message(message):
         print(message)
     return message_sender()
 
-print_message("Goodmorning Mr. West!")
+print_message("Goodmorning Mr. West!") # output should be "Goodmorning Mr. West!"
